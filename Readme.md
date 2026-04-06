@@ -1,0 +1,103 @@
+# M-2-OPERATORS-CONDITIONAL-STATEMENTS
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
+## 2-1 Arithmatic Operator 
+- we have 5 type of arithmatic operator + - x(*) / %
+
+```c
+#include <stdio.h>
+int main()
+{
+    int a = 10;
+    int b = 20;
+    // addition 
+    int sum = a + b;
+    printf("summation = %d\n", sum);
+    // subtraction 
+    int sub = a - b;
+    printf("subtraction = %d\n", sub);
+    // multiplication 
+    int mult = a * b;
+    printf("multiplication = %d\n", mult);
+    return 0;
+}
+```
+- lets take input and do using scanf
+
+```c
+#include <stdio.h>
+int main()
+{
+    // int a = 10;
+    // int b = 20;
+    int a, b;
+
+    scanf("a = %d b = %d", &a, &b);
+    // addition
+    int sum = a + b;
+    printf("summation = %d\n", sum);
+    // subtraction
+    int sub = a - b;
+    printf("subtraction = %d\n", sub);
+    // multiplication
+    int mult = a * b;
+    printf("multiplication = %d\n", mult);
+    return 0;
+}
+```
+- we will do division in the same way 
+
+```c
+#include <stdio.h>
+int main()
+{
+    // int a = 10;
+    // int b = 20;
+    int a, b;
+
+    scanf("a = %d b = %d", &a, &b);
+    // addition
+    int sum = a + b;
+    printf("summation = %d\n", sum);
+    // subtraction
+    int sub = a - b;
+    printf("subtraction = %d\n", sub);
+    // multiplication
+    int mult = a * b;
+    printf("multiplication = %d\n", mult);
+
+    int div = a / b;
+    printf("division = %d\n", div);
+    return 0;
+}
+```
+- if the division is supposed to be float we have to keep one of the value float otherwise it will give floored number and also keep the value in float 
+
+```c
+#include <stdio.h>
+int main()
+{
+    // int a = 10;
+    // int b = 20;
+    int a;
+    float b;
+
+    scanf("a = %d b = %f", &a, &b);
+
+    float div = a / b;
+    printf("division = %f\n", div);
+    printf("division = %.2f\n", div);
+    return 0;
+}
+```
