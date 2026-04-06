@@ -77,7 +77,30 @@
 
 //     if(tk >= 100){
 //         printf("Ore Borolok");
-        
+
+//     }else if(tk >=50) {
+//         printf("Tumi Gorib!\n");
+//     }
+//     else{
+//         printf("Ore Miskin");
+//     }
+
+//     return 0;
+// }
+
+// #include <stdio.h>
+// int main()
+// {
+//     int tk;
+
+//     scanf("tk = %d", &tk);
+
+//     if(tk >= 100){
+//         printf("Tumi Motamoti Borolok\n");
+
+//         if(tk > 150){
+//            printf("Tumi onek borolok");
+//         }
 
 //     }else if(tk >=50) {
 //         printf("Tumi Gorib!\n");
@@ -92,23 +115,17 @@
 #include <stdio.h>
 int main()
 {
-    int tk;
+    int a = 5;
 
-    scanf("tk = %d", &tk);
-
-    if(tk >= 100){
-        printf("Tumi Motamoti Borolok\n");
-        
-        if(tk > 150){
-           printf("Tumi onek borolok"); 
-        }
-
-    }else if(tk >=50) {
-        printf("Tumi Gorib!\n");
+    if (a < 10)
+    {
+        printf("hi ");
     }
-    else{
-        printf("Ore Miskin");
+    else if (a == 5)
+    {
+        printf("hello ");
+    }else{
+        printf("no");
     }
-
     return 0;
 }

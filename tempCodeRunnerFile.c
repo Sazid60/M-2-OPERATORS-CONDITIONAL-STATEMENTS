@@ -1,16 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    int tk;
+    int a = 15%4;
 
-    scanf("tk = %d", &tk);
-
-    if(tk <= 100){
-        printf("Tumi Gorib!\n");
-
-    }else{
-        printf("Ore Borolok");
-    }
+   printf("%d", a);
 
     return 0;
 }

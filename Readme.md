@@ -212,3 +212,7 @@ int main()
     return 0;
 }
 ```
+## 2-12 variations of if else 
+- regular 
+- nested 
+- ladder 
