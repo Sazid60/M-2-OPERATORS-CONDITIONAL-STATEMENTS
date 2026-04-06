@@ -101,3 +101,41 @@ int main()
     return 0;
 }
 ```
+
+## 2-2 Mod Operator 
+
+```c
+#include <stdio.h>
+int main()
+{
+    int a;
+    int b;
+
+    scanf("a = %d b = %d", &a, &b);
+
+    int rem = a % b;
+    printf("remaining = %d",rem);
+
+    return 0;
+}
+```
+
+## 2-3 Relational operator 
+
+![alt text](image-6.png)
+
+- relational operator will check and give us true or false
+
+## 2-4 & 5 Logical Operator 
+
+![alt text](image-7.png)
+
+- sits between two relation and gives true or false result 
+
+![alt text](image-8.png)
+
+![alt text](image-9.png)
+
+![alt text](image-10.png)
+
+![alt text](image-11.png)

@@ -21,18 +21,32 @@
 //     return 0;
 // }
 
+// #include <stdio.h>
+// int main()
+// {
+//     // int a = 10;
+//     // int b = 20;
+//     int a;
+//     float b;
+
+//     scanf("a = %d b = %f", &a, &b);
+
+//     float div = a / b;
+//     printf("division = %f\n", div);
+//     printf("division = %.2f\n", div);
+//     return 0;
+// }
+
 #include <stdio.h>
 int main()
 {
-    // int a = 10;
-    // int b = 20;
     int a;
-    float b;
+    int b;
 
-    scanf("a = %d b = %f", &a, &b);
+    scanf("a = %d b = %d", &a, &b);
 
-    float div = a / b;
-    printf("division = %f\n", div);
-    printf("division = %.2f\n", div);
+    int rem = a % b;
+    printf("remaining = %d",rem);
+
     return 0;
 }
