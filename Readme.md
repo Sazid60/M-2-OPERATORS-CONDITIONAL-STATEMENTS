@@ -140,7 +140,7 @@ int main()
 
 ![alt text](image-11.png)
 
-## 2-6 2-7 Conditional Statement if else 
+## 2-6 2-7 2-8 Conditional Statement if else 
 
 ```c
 #include <stdio.h>
@@ -155,6 +155,58 @@ int main()
 
     }else{
         printf("Ore Borolok");
+    }
+
+    return 0;
+}
+```
+## 2-9 Ladder if else 
+
+```c
+#include <stdio.h>
+int main()
+{
+    int tk;
+
+    scanf("tk = %d", &tk);
+
+    if(tk >= 100){
+        printf("Ore Borolok");
+        
+
+    }else if(tk >=50) {
+        printf("Tumi Gorib!\n");
+    }
+    else{
+        printf("Ore Miskin");
+    }
+
+    return 0;
+}
+```
+
+## 2-10 2-11 2-11 Nested If else 
+
+```c
+#include <stdio.h>
+int main()
+{
+    int tk;
+
+    scanf("tk = %d", &tk);
+
+    if(tk >= 100){
+        printf("Tumi Motamoti Borolok\n");
+        
+        if(tk > 150){
+           printf("Tumi onek borolok"); 
+        }
+
+    }else if(tk >=50) {
+        printf("Tumi Gorib!\n");
+    }
+    else{
+        printf("Ore Miskin");
     }
 
     return 0;
