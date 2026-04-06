@@ -139,3 +139,24 @@ int main()
 ![alt text](image-10.png)
 
 ![alt text](image-11.png)
+
+## 2-6 2-7 Conditional Statement if else 
+
+```c
+#include <stdio.h>
+int main()
+{
+    int tk;
+
+    scanf("tk = %d", &tk);
+
+    if(tk <= 100){
+        printf("Tumi Gorib!\n");
+
+    }else{
+        printf("Ore Borolok");
+    }
+
+    return 0;
+}
+```

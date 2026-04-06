@@ -37,16 +37,33 @@
 //     return 0;
 // }
 
+// #include <stdio.h>
+// int main()
+// {
+//     int a;
+//     int b;
+
+//     scanf("a = %d b = %d", &a, &b);
+
+//     int rem = a % b;
+//     printf("remaining = %d",rem);
+
+//     return 0;
+// }
+
 #include <stdio.h>
 int main()
 {
-    int a;
-    int b;
+    int tk;
 
-    scanf("a = %d b = %d", &a, &b);
+    scanf("tk = %d", &tk);
 
-    int rem = a % b;
-    printf("remaining = %d",rem);
+    if(tk <= 100){
+        printf("Tumi Gorib!\n");
+
+    }else{
+        printf("Ore Borolok");
+    }
 
     return 0;
 }
